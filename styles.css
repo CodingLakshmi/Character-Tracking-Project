@@ -1,0 +1,42 @@
+/* HTML Elements */
+body {
+	background-color: #6C5B7B;
+}
+
+h1 {
+	font-size: 120px;
+	text-align: center;
+	color: white;
+}
+
+/* Classes */
+
+.h1-homepage {
+	margin-top: 180px;
+}
+
+.aTag-homepage {
+	text-decoration: none;
+	background-color: #F8B195;
+	color: white;
+	border-radius: 5px;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+
+.aTag-homepage:hover {
+	text-decoration: none;
+	background-color: #f79b77;
+	color: white;
+	border-radius: 5px;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
