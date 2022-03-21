@@ -1,20 +1,94 @@
 /* HTML Elements */
-body {
-	background-color: #6C5B7B;
+
+
+
+
+p {
+	font-family: 'Fredoka', sans-serif;
 }
 
-h1 {
+/*Default Classes for Styles*/
+.h1-default {
 	font-size: 120px;
 	text-align: center;
 	color: white;
+	font-family: 'Parisienne', cursive;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.h2-default {
+	color: white;
+	font-family: 'Fredoka', sans-serif;
+}
+
+.li-default {
+	color: white;
+	font-size: 18px;
+}
+
+.pTag-default {
+	font-family: 'Fredoka', sans-serif;
+	font-size: 16px;
+	margin-inline-start: 200px;
+	margin-inline-end: 200px;
+}
+
+.aTag-default {
+	color: white;
+	text-decoration: none;
+}
+
+.aTag-default:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.rectangle-default {
+	height: auto;
+	width: 90%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 70px;
+	background-color: #C06C84;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.btn-default {
+	box-shadow: 0 16px 25px 0 rgb(0 0 0 / 20%);
+	transition: 0.3s;
+	height: 50px;
+	width: 100px;
+	color: white;
+	background-color: #F8B195;
+	border-radius: 10px;
+	border: 0px none black;
+	margin-bottom: 100px;
 }
 
 /* Classes */
+
+.BODY {
+	background-color: #6C5B7B;
+	font-family: 'Fredoka', sans-serif;
+}
+
+.h1-characters-heading {
+	font-size: 120px;
+	text-align: center;
+	color: white;
+	font-family: 'Parisienne', cursive;
+	margin-top: 50px;
+}
 
 .h1-homepage {
 	margin-top: 180px;
 }
 
+
+
+/*A Tag*/
 .aTag-homepage {
 	text-decoration: none;
 	background-color: #F8B195;
@@ -39,4 +113,122 @@ h1 {
 	padding-left: 50px;
 	padding-bottom: 20px;
 	font-size: 30px;
+}
+
+
+/*Vertical Line*/
+.vl {
+	border-left: 6px solid #F6E7D8;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	margin-left: -3px;
+	top: 300px;
+	border-radius: 15px;
+}
+
+
+/*Card*/
+.h1-card {
+	text-align: center;
+	font-size: 60px;
+	margin-top: 70px;
+	font-family: 'Fredoka', sans-serif;
+}
+
+.card1 {
+	box-shadow: 0 8px 12px 0 rgb(0 0 0 / 20%);
+	transition: 0.3s;
+	width: 350px;
+	height: 300px;
+	background-color: #C06C84;
+	position: absolute;
+	left: 250px;
+	top: 350px;
+	border-radius: 10px;
+}
+
+.card1:hover {
+	box-shadow: 0 16px 25px 0 rgba(0,0,0,0.5);
+}
+
+.card2 {
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 350px;
+	height: 300px;
+	background-color: #C06C84;
+	position: absolute;
+	right: 250px;
+	top: 350px;
+	border-radius: 10px;
+}
+
+.card2:hover {
+	box-shadow: 0 16px 25px 0 rgba(0,0,0,0.5);
+}
+
+.container {
+	padding: 2px 16px;
+}
+
+/*Horizontal Scrolling Cards*/
+.h1-characters {
+	text-align: center;
+	color: white;
+	font-size: 45px;
+	font-family: 'Fredoka', sans-serif;
+	margin-top: 40px;
+}
+
+.carousel {
+	background-color: #C06C84;
+	width: 400px;
+	height: 500px;
+	border-radius: 10px;
+	position: absolute;
+	left: 530px;
+	top: 50px;
+	margin-bottom: 100px;
+}
+
+/*Characters Page*/
+.pTag-characters {
+	font-size: 17px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.aTag-characters {
+	text-decoration: none;
+	background-color: #F8B195;
+	color: white;
+	border-radius: 5px;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	font-size: 18px;
+	height: 200px;
+	width: 200px;
+}
+
+.aTag-characters:hover {
+	text-decoration: none;
+	background-color: #f79b77;
+	color: white;
+	border-radius: 5px;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	font-size: 18px;
+	height: 200px;
+	width: 200px;
 }
